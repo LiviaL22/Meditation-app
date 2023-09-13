@@ -1,0 +1,49 @@
+.button {
+    color: rgb(39, 39, 187);
+    border: 2px solid rgb(39, 39, 187);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    font-family: cursive;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 2px 2px rgb(39, 39, 187);
+    background-color: #0e9147be;
+
+}
+
+.button:hover {
+    background-color: rgb(39, 39, 187);
+    color: white;
+}
+
+.button:active {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerPhoto {
+    text-align: center;
+}
+
+.photo {
+    border-radius: 50px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px rgb(39, 39, 187);
+
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 187);
+    font-family: cursive;
+}

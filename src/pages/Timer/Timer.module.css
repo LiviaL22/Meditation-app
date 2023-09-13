@@ -1,0 +1,67 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyle {
+    color: rgb(39, 39, 187);
+    border: 2px solid rgb(39, 39, 187);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(39, 39, 187);
+    background-color: #0e9147be;
+
+}
+
+.buttonStyle:hover {
+    background-color: rgb(39, 39, 187);
+    color: white;
+}
+
+.buttonSound {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 187);
+    font-family: cursive;
+    text-shadow: 2px 2px #0e9147be;
+
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 187);
+    font-family: cursive;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 187);
+    font-family: cursive;
+    height: 50px;
+}
+
+.number {
+    font-size: xx-large;
+
+}
+
+.divider {
+    font-size: xx-large;
+
+}

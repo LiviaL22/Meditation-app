@@ -1,0 +1,14 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 39, 187);
+    font-family: cursive;
+    text-decoration: none;
+    text-shadow: 2px 2px #0e9147be;
+
+}
+
+.title:hover {
+    color: white;
+}

@@ -1,0 +1,16 @@
+.button {
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    border: solid 2px rgb(39, 39, 187);
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(39, 39, 187);
+    background-color:#0e9147be;
+
+}
+
+.img {
+    border-radius: 50px;
+    height: 350px;
+    width: 350px;
+}
