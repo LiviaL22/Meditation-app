@@ -9,7 +9,7 @@ export default function Sound() {
     if (audio.paused === true) {
         audio.play();
     } else {
-        audio.pause();
+        audio.stop();
         
     }
 };
