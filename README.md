@@ -9,7 +9,7 @@ Ho usato:
 Webhust:
 •	Netlify
 
-Progetto:
+Progetto: https://meditation-app-ll.netlify.app/
 
 
 ENGLISH
@@ -26,4 +26,4 @@ I used:
 Webhost:
 •	Netlify
 
-Project:
+Project:https://meditation-app-ll.netlify.app/
