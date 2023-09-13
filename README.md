@@ -1,8 +1,29 @@
-# React + Vite
+Ciao! Sono Livia e sto studiando per diventare sviluppatrice web. Questo è il mio progetto per il master di start2impact su React. API : https://type.fit.
+ Un applicazione di meditazione.
+Ho usato: 
+•	HTML
+•	CSS
+•	React
+•	Vite
+•	Axios
+Webhust:
+•	Netlify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Progetto:
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ENGLISH
+
+Hello! I’m Livia and I’m studying to become a web developer.
+This is my project for the React start2impact master. API: https://type.fit.
+A meditation app.
+I used:
+•	HTML 
+•	CSS
+•	React
+•	Vite
+•	Axios
+Webhost:
+•	Netlify
+
+Project:
