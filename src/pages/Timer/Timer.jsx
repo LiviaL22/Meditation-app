@@ -91,7 +91,7 @@ export default function Timer() {
     return (
 <>
 
-    <h1 className={style.title}>TIME TO MEDITATION</h1>
+    <h1 className={style.title}>IT&apos;S TIME TO MEDITATION</h1>
 
     <div className={style.timer}>
             <div value={minutes} className={style.number}>{minutes}</div>
