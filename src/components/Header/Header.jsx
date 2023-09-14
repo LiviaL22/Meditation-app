@@ -9,7 +9,7 @@ export default function Header() {
        <Link className={style.title} to='/'>
         <h1>
            <GiLampreyMouth />
-         MEDIDATION APP
+         MEDIDATION 
            <GiLampreyMouth />
         </h1>
        </Link>
