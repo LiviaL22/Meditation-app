@@ -5,12 +5,11 @@ import {IoMdMusicalNote} from 'react-icons/io';
 
 
 export default function Timer() {
+
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState("0" + 0);       
     const [isRunning, setIsRunning] = useState(false);
-    // eslint-disable-next-line no-unused-vars
     const [keys, setKeys] = useState(0);
-    // eslint-disable-next-line no-unused-vars
     const [isStopped, setIsStopped] = useState(false);    
     
 
@@ -42,13 +41,12 @@ export default function Timer() {
 
     /* Start */
 
-    // eslint-disable-next-line no-unused-vars
     const start = (e) => {
         if (minutes !== 0 || seconds !== 0) {
             setIsRunning(true);
             setIsStopped(false);
         } else {
-            alert("Insert time and sound");
+            window.alert("Insert time and sound");
         }
     }
 
@@ -56,12 +54,12 @@ export default function Timer() {
 
     const pause = () => {
         setIsRunning(false);
-        setIsStopped(true)
+        setIsStopped(true);
     }
     
     /* Stop */
 
-    // eslint-disable-next-line no-unused-vars
+
     const stop = (e) => {
         setIsRunning(false);
         setSeconds(0);
