@@ -11,7 +11,7 @@ export default function Sound() {
     } else {
         audio.pause();
   audio.currentTime = 0;
-        audio.pause();
+        audio.stop();
         
     }
 };
