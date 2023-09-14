@@ -128,17 +128,19 @@ export default function Timer() {
                     Stop 
                 </button>
         </div>
-        <p className={style.title}>
+         <p className={style.title}>
+
             <IoMdMusicalNote/>
-            Click on the photo to listen to relaxing background music
+              Click on the photo to listen to relaxing background music
             <IoMdMusicalNote/>
-            </p>
+            
+         </p>
         
-        <div className={style.buttonSound}>
+            <div className={style.buttonSound}>
             
-          <Sound/>
+              <Sound/>
             
-        </div>
+            </div>
     
 </>   
     )

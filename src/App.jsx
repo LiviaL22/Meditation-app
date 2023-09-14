@@ -9,14 +9,14 @@ function App() {
     return (
         <>
      <BrowserRouter>
-      <div>
+       <div>
         <Header/>
          <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/Timer' element={<Timer/>}/>
          </Routes>
             <Footer/>
-      </div>
+       </div>
      </BrowserRouter>
 
         </>

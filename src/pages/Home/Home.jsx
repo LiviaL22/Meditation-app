@@ -33,25 +33,26 @@ export default function Home () {
   
 	
 
-	return (
-	<>
+return (
+<>
 
     <p onClick={getData} className={style.title2}>{quote.text}</p>
 	
     <div className={style.container}>
 
-	<button className={style.button} onClick={goStart}>
+	  <button className={style.button} onClick={goStart}>
 
 		Meditation
 
-	</button>
+	   </button>
 			
 	</div>
-	<div className={style.containerPhoto}>
+
+	  <div className={style.containerPhoto}>
 
 		<img className={style.photo} src={image} alt='image'/>
 
-	</div>
-		</>
+	  </div>
+</>
 	)
 }
