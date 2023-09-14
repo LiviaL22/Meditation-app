@@ -9,6 +9,8 @@ export default function Sound() {
     if (audio.paused === true) {
         audio.play();
     } else {
+        audio.pause();
+  audio.currentTime = 0;
         audio.stop();
         
     }
@@ -18,7 +20,7 @@ export default function Sound() {
 
     <button className={style.button} onClick={start}>
       <img className={style.img} src={img} alt="image" />
-      <audio src={sound}/>
+      <audio loop src={sound}/>
     </button>
    
     );    
