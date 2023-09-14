@@ -91,8 +91,6 @@ export default function Timer() {
     return (
 <>
 
-    <h1 className={style.title}>IT&apos;S TIME TO MEDITATION</h1>
-
     <div className={style.timer}>
             <div value={minutes} className={style.number}>{minutes}</div>
             <div className={style.divider}>:</div>
@@ -130,7 +128,7 @@ export default function Timer() {
                     Stop 
                 </button>
         </div>
-        <p className={style.title2}>
+        <p className={style.title}>
             <IoMdMusicalNote/>
             Click on the photo to listen to relaxing background music
             <IoMdMusicalNote/>
