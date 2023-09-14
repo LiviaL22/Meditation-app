@@ -18,7 +18,7 @@ export default function Sound() {
 
     <button className={style.button} onClick={start}>
       <img className={style.img} src={img} alt="image" />
-      <audio loop src={sound}/>
+      <audio src={sound}/>
     </button>
    
     );    
