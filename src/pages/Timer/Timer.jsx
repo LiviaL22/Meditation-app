@@ -118,16 +118,16 @@ export default function Timer() {
         <div className={style.buttons}>
               {!isRunning &&(
                 <button className={style.buttonStyle} onClick={start}  >
-                    <strong>Play</strong>  
+                    Play
                 </button>
               )} 
                {isRunning && (
                  <button className={style.buttonStyle} onClick={pause}>
-                    <strong>Pause</strong>  
+                    Pause 
                  </button>
                 )}
                 <button className={style.buttonStyle} onClick={stop}>
-                <strong>Stop</strong>  
+                 Stop 
                 </button>
         </div>
         <p className={style.title2}>
