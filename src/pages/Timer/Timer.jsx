@@ -127,7 +127,7 @@ export default function Timer() {
                  </button>
                 )}
                 <button className={style.buttonStyle} onClick={stop}>
-                 Stop 
+                    Stop 
                 </button>
         </div>
         <p className={style.title2}>
