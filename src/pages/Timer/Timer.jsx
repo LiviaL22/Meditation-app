@@ -9,7 +9,6 @@ export default function Timer() {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState("0" + 0);       
     const [isRunning, setIsRunning] = useState(false);
-    const [keys, setKeys] = useState(0);
     const [isStopped, setIsStopped] = useState(false);    
     
 
@@ -84,12 +83,7 @@ export default function Timer() {
                 `${Math.floor(prevMinutes / 60)}`
             )
         })
-        setKeys(keys => {                           
-            keys = e.target.getAttribute("value")
-            return (
-                `${keys}`
-            )
-        })   
+       
     }
 
 
@@ -108,16 +102,16 @@ export default function Timer() {
     <div className={style.buttons}>
                
             <button value={300} className={style.buttonStyle} onClick={changeTimer}>
-              <strong>5 Minutes</strong>  
+             5 Minutes
             </button>
         
           
             <button value={600} className={style.buttonStyle} onClick={changeTimer} >
-            <strong>10 Minutes</strong>  
+             10 Minutes  
             </button>
           
             <button value={900} className={style.buttonStyle} onClick={changeTimer} >
-            <strong>15 Minutes</strong>  
+              15 Minutes  
             </button>
    </div>
 
@@ -126,11 +120,11 @@ export default function Timer() {
                 <button className={style.buttonStyle} onClick={start}  >
                     <strong>Play</strong>  
                 </button>
-             )} 
+              )} 
                {isRunning && (
-                <button className={style.buttonStyle} onClick={pause}>
+                 <button className={style.buttonStyle} onClick={pause}>
                     <strong>Pause</strong>  
-                </button>
+                 </button>
                 )}
                 <button className={style.buttonStyle} onClick={stop}>
                 <strong>Stop</strong>  
