@@ -42,7 +42,7 @@ export default function Home () {
 
 	<button className={style.button} onClick={goStart}>
 
-		<strong>Meditation</strong> 
+		Meditation
 
 	</button>
 			
