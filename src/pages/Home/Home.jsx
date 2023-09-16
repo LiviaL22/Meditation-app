@@ -50,7 +50,7 @@ return (
 
 	  <div className={style.containerPhoto}>
 
-		<img className={style.photo} src={image} alt='image'/>
+		<img className={style.photo} src={image} alt='image/homepage'/>
 
 	  </div>
 </>

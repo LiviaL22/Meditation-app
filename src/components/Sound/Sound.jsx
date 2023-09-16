@@ -19,7 +19,7 @@ export default function Sound() {
  return(
 
     <button className={style.button} onClick={start}>
-      <img className={style.img} src={img} alt="image" />
+      <img className={style.img} src={img} alt="image/soundpage" />
       <audio loop src={sound}/>
     </button>
    
