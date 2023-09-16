@@ -7,8 +7,8 @@
 .buttonStyle {
     color: rgb(39, 39, 187);
     border: 2px solid rgb(39, 39, 187);
-    padding: 20px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 50px;
     font-family: cursive;
     cursor: pointer;
