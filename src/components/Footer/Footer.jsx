@@ -4,7 +4,7 @@ export default function Footer () {
     return (
         <>
         <div className={style.footer}>
-         <small>Livia Luciani &copy; 2023</small>
+         <p className={style.copy}>Livia Luciani &copy; 2023</p>
         </div>
         </>
     )
