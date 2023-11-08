@@ -1,8 +1,11 @@
 .footer {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-    color: rgb(39, 39, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  color: rgb(39, 39, 187);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
