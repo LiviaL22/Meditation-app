@@ -1,11 +1,7 @@
 .footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.copy {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
   color: rgb(39, 39, 187);
 }
